@@ -64,7 +64,7 @@ msgid ""
 "The script will sanityze and lowercase the name you provided, copy the "
 "templates files into the new directory, and then make some replacements."
 msgstr ""
-"Le script nettoiera et passera en minuscules le nom que vous ave fourni, "
+"Le script nettoiera et passera en minuscules le nom que vous avez fourni, "
 "copiera les fichiers modèles dans le nouveau répertoire, et effectuera "
 "quelques remplacements."
 
@@ -120,7 +120,7 @@ msgid ""
 "just add:"
 msgstr ""
 "Si vous n'avez pas encore de configuration composer ou travis, vous pouvez "
-"simplement copier celles du plugin empty. Dans le cas contraire ;  ajoutez "
+"simplement copier celles du plugin empty. Dans le cas contraire, ajoutez "
 "dans votre ``composer.json`` :"
 
 #: ../../source/empty/index.rst:49
@@ -130,7 +130,7 @@ msgstr "Et ensuite lancez ``composer requires glpi-project/tools``."
 #: ../../source/empty/index.rst:51
 msgid "In the travis configuration file, just add the CS call:"
 msgstr ""
-"Dans le ficheir de configuration de travis, ajoutez juste l'appel au CS :"
+"Dans le fichier de configuration de travis, ajoutez juste l'appel au CS :"
 
 #: ../../source/empty/index.rst:58
 msgid "In the ``.gitignore`` file, add the following:"
@@ -154,7 +154,7 @@ msgid ""
 msgstr ""
 "Pour finir, comme le projet ``tools`` fournit quelques fonctionnalités, vous"
 " pouvez supprimer les scripts utilitaires en doublon (les fichiers tels que "
-"``release``, ``extract_template.sh``, ...) qui pourraient être présents dans"
+"``release``, ``extract_template.sh``...) qui pourraient être présents dans"
 " votre plugin."
 
 #: ../../source/empty/index.rst:73
@@ -178,13 +178,13 @@ msgstr ""
 #: ../../source/empty/index.rst:80
 msgid "To check coding standards, just use the Robo.li task ``code:cs``:"
 msgstr ""
-"Pour vrifier les standards, utilisez la tâche ``code:cs`` de Robo.li :"
+"Pour vérifier les standards, utilisez la tâche ``code:cs`` de Robo.li :"
 
 #: ../../source/empty/index.rst:88
 msgid ""
 "The above command will ignore ``vendor`` and run on the current directory."
 msgstr ""
-"La commande ci dessus ignorera ``vendor`` et sera lancée dans le répertoire "
+"La commande ci-dessus ignorera ``vendor`` et sera lancée dans le répertoire "
 "courant."
 
 #: ../../source/empty/index.rst:90
@@ -193,7 +193,7 @@ msgid ""
 "override ``$csignore`` and/or ``$csfiles`` in the ``RoboFile.php`` of the "
 "plugin:"
 msgstr ""
-"Si vous souhaitez adapter la liste d'ignorance ou les dossiers vérifiés; "
+"Si vous souhaitez adapter la liste d'ignorance ou les dossiers vérifiés, "
 "vous pouvez simplement surcharger ``$csignore`` et/ou ``$csfiles`` dans le "
 "``RoboFile.php`` du plugin :"
 
@@ -231,7 +231,7 @@ msgid ""
 "`Travis-CI documentation <https://docs.travis-ci.com/>`_ to know more."
 msgstr ""
 "Bien entendu, le fichier ``.travis.yml`` peut être adapté ; vous pouvez "
-"lancer des tests unitaires, créer/modifier une base de données, activer les "
+"lancer des tests unitaires, créer ou modifier une base de données, activer les "
 "notifications, etc. Référez-vous à la `documentation Travis-CI <https://docs"
 ".travis-ci.com>`_ pour plus de détails."
 
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:130
 msgid "There are three available targets:"
-msgstr "Il y a 3 cibles disponibles :"
+msgstr "Il y a trois cibles disponibles :"
 
 #: ../../source/empty/index.rst:132
 msgid "``minify`` that will minify all CSS and JS files (see below),"
@@ -291,7 +291,7 @@ msgid ""
 "``minify:js`` that will minify all javascript files in the ``js`` directory "
 "of your plugin, creating a ``.min.js`` version along with the original file."
 msgstr ""
-"``minify:js`` qui va minimifier tous les fichiers javascript dans le dossier"
+"``minify:js`` qui va minimifier tous les fichiers JavaScript dans le dossier"
 " ``js`` de votre plugin, en créant une version ``.min.js`` version à côté du"
 " fichier original."
 
@@ -326,7 +326,7 @@ msgid ""
 msgstr ""
 "À partir de GLPI 9.2, vous n'avez plus à vous soucier du chargement des "
 "fichier minimifiés lorsque vous utilisez les hooks ``add_css`` et "
-"``add_javascript`` ! Vous dvez simplement appeler vos fichiers standards, et"
+"``add_javascript`` ! Vous devez simplement appeler vos fichiers standards, et"
 " GLPI utilisera automatiquement la version minimifiée si elle existe, et si "
 "le mode `DEBUG` n'est pas actif."
 
@@ -350,7 +350,7 @@ msgid ""
 "files must be compiled from the latest ``PO``."
 msgstr ""
 "1 les chaînes à traduire doivent être extraites depuis les fichiers sources,"
-" un fichier ``POT`` ser ainsi créé ou mise à jour en conséquence, 2 les "
+" un fichier ``POT`` sera ainsi créé ou mise à jour en conséquence, 2 les "
 "fichiers ``PO`` doivent être créés ou mis à jour depuis les fichier ``POT``,"
 " 3 les fichiers ``PO`` doivent être traduits, 4 ``les fichiers ``MO`` "
 "doivent être compilés depuis la dernière version des ``PO``."
@@ -437,7 +437,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:192
 msgid "Requirements"
-msgstr "Pré-requis"
+msgstr "Prérequis"
 
 #: ../../source/empty/index.rst:194
 msgid ""
@@ -500,7 +500,7 @@ msgid ""
 "public);"
 msgstr ""
 "vérifie si une release existe déjà en local ou en distant (en présumant que "
-"votre plugin soit héberge sur l'organisation github *pluginsGLPI* et qu'elle"
+"votre plugin soit hébergé sur l'organisation github *pluginsGLPI* et qu'elle"
 " soit publique) ;"
 
 #: ../../source/empty/index.rst:210
@@ -524,7 +524,7 @@ msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
 msgstr ""
-"s'il y en a, compile vos feuilles de style CSS et vos fichiers Javascript "
+"s'il y en a, compile vos feuilles de style CSS et vos fichiers JavaScript "
 "(en utilisant `Robo.li <http://robo.li>`_) ;"
 
 #: ../../source/empty/index.rst:214
